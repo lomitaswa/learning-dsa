@@ -19,14 +19,14 @@ void spiralPrint(int arr[][1000], int m, int n) {
             }
             endCol--;
         
-        if(endRow > startRow) {
+        if(endCol > startCol) {
             for(int i=endCol; i>=startCol; i--) {
                 cout << arr[endRow][i] << " ";
             }
             endRow--;
         }
         
-        if(endCol > startCol) {
+        if(endRow > startRow) {
             for(int i=endRow; i>=startRow; i--) {
                 cout << arr[i][startCol] << " ";
             }
@@ -41,11 +41,11 @@ int main() {
     int m, n;
     cin >> m >> n;
 
-    int val = 1;
+    int val = 10;
     for(int row = 0; row < m; row++) {
         for (int col = 0; col < n; col++) {
             arr[row][col] = val;
-            val += 1;
+            val += 10;
             cout << arr[row][col] << " ";
         }
         cout << endl;
