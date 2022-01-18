@@ -4,7 +4,7 @@ Taking array inputs and displaying them is repetitive so I created a header file
 helperFunctions do the following tasks
 
 > - Take array inputs
-> - Diplay Array elements
+> - Display Array elements
 
 ```
 takeArrayInput(array, size);
