@@ -10,6 +10,7 @@ int main() {
     cin >> P;
     cout << endl << endl << endl;
     cout << N << " to the power " << p << " is equal to: " << power(N, P);
+    return 0;
 }
 
 int power(int n, int p) {
