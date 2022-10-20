@@ -27,7 +27,7 @@ int power(int n, int p) {
 
     t = power(n, p / 2);
 
-    //BackTrack
+    //Divide and conquor
 
     if (p % 2 == 0) {
 
